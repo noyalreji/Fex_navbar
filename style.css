@@ -1,0 +1,49 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
+body {
+  background-color: whitesmoke;
+}
+h1 {
+  color: aliceblue;
+  background-color: black;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 20px;
+}
+ul {
+  display: flex;
+  justify-content: flex-end;
+  text-align: center;
+  padding: 8px;
+}
+
+li {
+  list-style-type: none;
+  margin: -66px 1vw;
+  font-size: 3vh;
+  padding: 10px;
+}
+a {
+  color: white;
+}
+a:link {
+  text-decoration: none;
+}
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+  transition: ease-in;
+}
+
+a:active {
+  text-decoration: underline;
+}
+
+.btn {
+  background-color: blue;
+  color: white;
+}
